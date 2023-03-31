@@ -1,3 +1,6 @@
+# CHANGING
+
+
 This package contains simplified MD code with multi-threading
 parallelization for simulating atoms with a Lennard-Jones potential.
 
@@ -24,4 +27,3 @@ The commands
     mkdir build; cd build; cmake ..; cmake --build .
 
 create the `build/` folder containing the `ljmd-serial.x` executable, which is a replica of the one obtained via the `Makefile`s. Once inside the folder, `cd build`, one can execute `make check` and `make clean`.
-+++
